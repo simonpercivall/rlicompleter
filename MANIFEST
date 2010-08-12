@@ -1,0 +1,8 @@
+LICENSE
+README
+TODO
+setup.py
+rlicompleter/__init__.py
+rlicompleter/completer.py
+rlicompleter/modulescanner.py
+rlicompleter/statfuncsmodule.c

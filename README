@@ -1,0 +1,14 @@
+RLICOMPLETER 3
+--------------
+
+Copyright (c) 2004 Simon Percivall; All Rights Reserved
+Copyright (c) 2001, 2002, 2003, 2004 Python Software Foundation;
+    All Rights Reserved
+
+rlicompleter 3 derives from the Python 2.3.4 standard library modules
+rlcompleter.py and pydoc.py. It is a modification of rlcompleter.py
+that enables completion of imports in the Python interpreter. The
+scanning mechanism necessary for package and module discovery (i.e. the
+mechanism for determining what is importable in sys.path and in
+packages and sub-packages contained in sys.path) derives from the
+documentation scanning mechanism found in pydoc.py.

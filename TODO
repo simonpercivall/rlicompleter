@@ -1,0 +1,21 @@
+rlicompleter 3.1
+==================
+
+1.  Completion of a module name is currently not possible when
+    importing from if the name is different from the canonical
+    name used in sys.modules.
+    
+2.  If a module is imported and bound to another name than its
+    canonical name in the namespace, it's not possible to
+    complete sub-objects when importing from using that name.
+
+3.  Completing multiple sub-objects separated by a comma in a
+    "from import" statement is not possible.
+
+4.  If sys.path is changed after initialization of rlicompleter,
+    no update of importable modules is done.
+
+5.  Zipped egg files (from setuptools) are currently not
+    supported. Initial structure is in place to deal with them,
+    but the machinery to scan them and complete on their
+    contents is not yet implemented.
